@@ -16,7 +16,7 @@ function App() {
   const [responseOrder, setResponseOrder] = useState([]);
 
   const models = [
-    { id: 'openai', name: 'OpenAI (GPT-4o)', color: '#2ECC71' },
+    { id: 'openai', name: 'OpenAI (GPT-4o)', color: '#9beb34' },
     { id: 'anthropic', name: 'Anthropic (Claude)', color: '#9B59B6' },
     { id: 'ollama', name: 'Ollama (Gemma 2)', color: '#E67E22' }
   ];
