@@ -28,7 +28,7 @@ pipeline {
 
         stage('Deploy Test') {
             steps {
-                sshagent(['YOUR_CREDENTIAL_ID']) {
+                sshagent(['ec2_ssh']) {
                     bat 'ssh -o StrictHostKeyChecking=no ubuntu@54.221.144.84 "echo Connected"'
                 }
             }
